@@ -160,7 +160,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+//// declaration
 // expression
 
 
@@ -175,6 +175,19 @@ function exclaimFour(str) {
 
 //CODE HERE
 
+function nameCheck(name){
+  if (name === 'Steven'){
+    console.log("What is up Steven?")
+  } else if (name === 'Bryan'){
+    console.log("Hey Bryan!")
+  } else {
+    console.log(`Cool name, ${name}`)
+//    return `Cool name, ${name}`
+  }
+}
+nameCheck('Steven')
+let nameGreeting = nameCheck('Jake')
+//console.log(nameGreeting)
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
