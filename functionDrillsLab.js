@@ -244,6 +244,14 @@ printAllNames(namesArr)
 
 //CODE HERE
 
+function thatsOdd(number){
+  if (number % 2 === 0){
+    console.log('Thats not odd!')
+  } else {
+    console.log('That is odd inded.')
+  }
+}
+let oddChecker = thatsOdd(5)
 
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -257,6 +265,9 @@ printAllNames(namesArr)
 
 //CODE HERE
 
+const bestMovie = (movieName) => {console.log(`${movieName} is the best movie ever!`)}
+
+bestMovie("Dark Tower")
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
