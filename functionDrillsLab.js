@@ -57,6 +57,12 @@ printName('Cameron')
 
 //CODE HERE
 
+function greeting(name){
+  console.log(`Hello, ${name}`) 
+}
+greeting('Jake')
+// console.log(greeting('Jake'))
+
 
 ////////////////// PROBLEM 5 ////////////////////
 
@@ -71,6 +77,16 @@ printName('Cameron')
 
 //CODE HERE
 
+const compareNums = (zero, one) => {
+  if (zero > one){
+    console.log(zero)
+  } else if (one > zero){
+    console.log(one)
+  } else {
+    console.log(zero)
+    }
+  }
+compareNums(10,8)
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
@@ -82,7 +98,13 @@ printName('Cameron')
 
 //CODE HERE
 
-
+function add(one, two){
+  a = +one
+  b = +two
+  // return (a + b)
+  console.log(a + b)
+}
+add(9, 8)
 ////////////////// PROBLEM 7 ////////////////////
 
 /*
@@ -94,8 +116,8 @@ const exclaim = function(str) {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
-// declaration
+//// arrow
+//// declaration
 // expression
 
 
@@ -112,8 +134,8 @@ const exclaimTwo = str => {
 }
 
 // arrow
-// declaration
-// expression
+//// declaration
+//// expression
 
 /*
   Rewrite exclaimTwo to be a single line.
@@ -122,7 +144,9 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
+const exclaimThree = (one) => console.log(`${one.toUpperCase()}!!!`)
 
+exclaimThree('hello')
 
 ////////////////// PROBLEM 9 ////////////////////
 
